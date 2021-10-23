@@ -10,6 +10,14 @@ class Post extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+        'title',
+        'description',
+        'status',
+        'meta_title',
+        'meta_description',
+    ];
+
     /**
      * @return BelongsToMany
      */

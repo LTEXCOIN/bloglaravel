@@ -13,14 +13,14 @@ class CreateRoleGroupsTable extends Migration
      */
     public function up()
     {
-        Schema::create('role_groups', function (Blueprint $table) {
+      /*  Schema::create('role_groups', function (Blueprint $table) {
             $table->integer('user_id')->unsigned();
             $table->integer('group')->unsigned();
             $table->primary(['category_id', 'post_id']);
             $table->foreign('category_id')->references('id')->on('categories')->onUpdate('cascade')->onDelete('cascade');
             $table->foreign('post_id')->references('id')->on('posts')->onUpdate('cascade')->onDelete('cascade');
 
-        });
+        });*/
     }
 
     /**

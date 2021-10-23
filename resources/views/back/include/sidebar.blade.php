@@ -54,6 +54,31 @@
                     </ul>
                 </li>
                 <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-copy"></i>
+                        <p>
+                            Categories
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a href="{{ route('admin.post.create') }}" class="nav-link">
+                                <i class="far fa-plus nav-icon"></i>
+                                <p>Add Categories</p>
+
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('admin.post.index') }}" class="nav-link">
+                                <i class="far fa-plus nav-icon"></i>
+                                <p>Post List</p>
+
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
                     <a href="{{ url('/logout') }}" class="nav-link">
                         <i class="nav-icon fas fa-sign-out-alt"></i>
                         <p>
