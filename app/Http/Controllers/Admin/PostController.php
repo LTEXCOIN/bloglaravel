@@ -51,7 +51,6 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        dd($request->all());
         $rules = [
             'title' => 'required|min:3|unique:posts',
             'description' => 'required',

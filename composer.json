@@ -14,7 +14,8 @@
         "laravel/tinker": "^2.5",
         "laravel/ui": "^3.3",
         "unisharp/laravel-filemanager": "^2.2",
-        "xenon/laravelbdsms": "v1.0.36.5"
+        "xenon/laravelbdsms": "v1.0.36.5",
+        "xenon/nagad-api": "v1.9.0.2"
     },
     "require-dev": {
         "facade/ignition": "^2.5",

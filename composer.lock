@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3b190fbae06bb32e1118f2ce1c67b42c",
+    "content-hash": "c624f4b7c565f1ec4248fa6d61ad0f0d",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5189,6 +5189,72 @@
                 }
             ],
             "time": "2021-10-18T11:10:58+00:00"
+        },
+        {
+            "name": "xenon/nagad-api",
+            "version": "v1.9.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arif98741/nagadApi.git",
+                "reference": "7caa2d037aaa75c0b91e2b27049a89a0b3c356a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arif98741/nagadApi/zipball/7caa2d037aaa75c0b91e2b27049a89a0b3c356a6",
+                "reference": "7caa2d037aaa75c0b91e2b27049a89a0b3c356a6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": "^5.5 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "filp/whoops": "^2.7",
+                "phpunit/phpunit": "7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Xenon\\NagadApi\\": "src/"
+                },
+                "psr-0": {
+                    "UnitTestFiles": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ariful Islam",
+                    "email": "arif98741@gmail.com",
+                    "homepage": "https://github.com/arif98741",
+                    "role": "Developer, Maintainer"
+                }
+            ],
+            "description": "This is Bangladeshi nagad payment gateway api development library. This library can be used easily as dependency in your php application.",
+            "homepage": "https://github.com/arif98741/nagadApi",
+            "keywords": [
+                "Bangladeshi payment gateway",
+                "api",
+                "nagad",
+                "nagad payment gateway",
+                "nagad php library",
+                "payment gateway"
+            ],
+            "support": {
+                "email": "arif98741@gmail.com",
+                "issues": "https://github.com/arif98741/nagadApi/issues",
+                "source": "https://github.com/arif98741/nagadApi/tree/v1.9.0.2"
+            },
+            "funding": [
+                {
+                    "url": "https://www.buymeacoffee.com/arif98741",
+                    "type": "custom"
+                }
+            ],
+            "time": "2021-11-08T04:57:34+00:00"
         }
     ],
     "packages-dev": [
@@ -7541,5 +7607,5 @@
         "php": "^7.3|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.1.0"
 }
